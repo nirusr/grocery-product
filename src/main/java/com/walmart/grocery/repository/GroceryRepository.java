@@ -11,6 +11,7 @@ import com.walmart.grocery.model.OrderInfo;
 import com.walmart.grocery.model.TSOrder;
 @RepositoryRestResource(collectionResourceRel="order", path = "order")
 public interface GroceryRepository extends MongoRepository<Gorder, String> {
+	//Get Document by Order Number
 	List<Gorder> findByTSOrder_OrderInfo_OrderNumber_AllIgnoreCase(@Param("OrderNumber") String OrderNumber);
 
 }
