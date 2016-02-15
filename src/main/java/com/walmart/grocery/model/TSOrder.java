@@ -39,7 +39,7 @@ public class TSOrder {
      * 
      */
     @JsonProperty("OrderInfo")
-    private com.walmart.grocery.model.OrderInfo OrderInfo;
+    private com.walmart.grocery.model.OrderInfo orderInfo;
     /**
      * 
      * (Required)
@@ -112,7 +112,7 @@ public class TSOrder {
      */
     @JsonProperty("OrderInfo")
     public com.walmart.grocery.model.OrderInfo getOrderInfo() {
-        return OrderInfo;
+        return orderInfo;
     }
 
     /**
@@ -124,7 +124,7 @@ public class TSOrder {
      */
     @JsonProperty("OrderInfo")
     public void setOrderInfo(com.walmart.grocery.model.OrderInfo OrderInfo) {
-        this.OrderInfo = OrderInfo;
+        this.orderInfo = OrderInfo;
     }
 
     /**

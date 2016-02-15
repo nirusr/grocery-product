@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 public class OrderInfo {
 
     @JsonProperty("OrderNumber")
-    private String OrderNumber;
+    private String orderNumber;
     @JsonProperty("Zone")
     private String Zone;
     @JsonProperty("GroupID")
@@ -85,7 +85,7 @@ public class OrderInfo {
      */
     @JsonProperty("OrderNumber")
     public String getOrderNumber() {
-        return OrderNumber;
+        return orderNumber;
     }
 
     /**
@@ -95,7 +95,7 @@ public class OrderInfo {
      */
     @JsonProperty("OrderNumber")
     public void setOrderNumber(String OrderNumber) {
-        this.OrderNumber = OrderNumber;
+        this.orderNumber = OrderNumber;
     }
 
     /**

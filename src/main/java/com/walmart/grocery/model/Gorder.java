@@ -20,7 +20,7 @@ public class Gorder {
      * 
      */
     @JsonProperty("TSOrder")
-    private com.walmart.grocery.model.TSOrder TSOrder;
+    private com.walmart.grocery.model.TSOrder tSOrder;
 
     /**
      * 
@@ -31,7 +31,7 @@ public class Gorder {
      */
     @JsonProperty("TSOrder")
     public com.walmart.grocery.model.TSOrder getTSOrder() {
-        return TSOrder;
+        return tSOrder;
     }
 
     /**
@@ -43,7 +43,7 @@ public class Gorder {
      */
     @JsonProperty("TSOrder")
     public void setTSOrder(com.walmart.grocery.model.TSOrder TSOrder) {
-        this.TSOrder = TSOrder;
+        this.tSOrder = TSOrder;
     }
 
 }
